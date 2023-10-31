@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: karla;
+}
+
+body {
+  background-color: #e5eff5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-div {
+  margin: 50px;
+  box-shadow: 2px 3px 7px 0px #80827d;
+  border-radius: 5px;
+}
+
+.top-div {
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+  width: 100%;
+  height: 45%;
+}
+
+.top-div h2,
+.top-div h3,
+.top-div p {
+  margin: 10px;
+}
+
+.top-div h2 {
+  color: #2ab2af;
+  margin-bottom: 20px;
+}
+
+.top-div h3 {
+  color: #b4eb34;
+}
+
+.top-div p {
+  color: #98a6bd;
+  font-size: 0.7rem;
+}
+
+.bottom-div {
+  /* display: flex; */
+  color: white;
+  width: 100%;
+  height: 55%;
+}
+.bottom-div-left {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background-color: #2ab2af;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.bottom-div-left p {
+  margin: 5px;
+}
+
+.bottom-div-left h3,
+.bottom-div-right h3 {
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+
+.bottom-div-right {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background-color: #43bfbd;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.bottom-div-right-ul {
+  list-style-type: none;
+}
+.bottom-div-right-ul li {
+  margin: 5px;
+  font-size: 0.8rem;
+  color: rgba(244, 240, 240, 0.933);
+}
+.SignUp-button {
+  margin-top: 20px;
+  width: 100%;
+  height: 30px;
+  border: none;
+  box-shadow: 2px 3px 7px 0px #80827d;
+  border-radius: 5px;
+  background-color: #b4eb34;
+  color: white;
+}
+
+.SignUp-button:hover {
+  cursor: pointer;
+  background-color: #96d10d;
+}
+
+.dollar-month {
+  display: flex;
+}
+
+.dollar {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.month {
+  color: lightgray;
+  align-self: center;
+}
+
+@media (min-width: 576px) {
+  .main-div {
+    width: 600px;
+    height: 400px;
+  }
+
+  .bottom-div {
+    display: flex;
+  }
+
+  .bottom-div-left,
+  .bottom-div-right {
+    width: 50%;
+    height: 100%;
+  }
+
+  .bottom-div-left {
+    border-radius: 0px 0px 0px 5px;
+  }
+  .bottom-div-right {
+    border-radius: 0px 0px 5px 0px;
+  }
+}
